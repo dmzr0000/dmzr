@@ -1,10 +1,10 @@
-package com.example.dmzr.schedule;
+package com.example.dmzr.comm.schedule;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Scheduling {
+public class CommScheduling {
 
     @Scheduled(cron="* * * * * *")
     public void Schedule1() {
